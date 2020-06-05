@@ -1,0 +1,219 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "<a href='https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/SecurityMenuBlade' target='_blank'>__Azure Active Directory Identity Protection__</a>\n\n<a href='https://portal.atp.azure.com/' target='_blank'>__Azure Advanced Threat Protection__</a>\n\n<a href='https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/migrationActivationBlade' target='_blank'>__Azure Information Protection__</a>\n\n<a href='https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0' target='_blank'>__Azure Security Center__</a>\n\n<a href='https://portal.cloudappsecurity.com/' target='_blank'>__Microsoft Cloud App Security__</a>\n\n<a href='https://securitycenter.windows.com/' target='_blank'>__Microsoft Defender Advanced Threat Protection__</a>\n\n<a href='https://protection.office.com/' target='_blank'>__Office 365 Advanced Threat Protection__</a>",
+                    "title": "Microsoft Security Portal Navigation",
+                    "subtitle": "Direct Portal Links",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "colSpan": 3,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/asc.png \"Open Portal\")](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0 \"Open Portal\")",
+                    "title": "Azure Security Center",
+                    "subtitle": "ASC",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "2": {
+            "position": {
+              "x": 7,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/aatp.png \"Open Portal\")](https://portal.atp.azure.com/ \"Open Portal\")",
+                    "title": "Azure Advanced Threat Protection",
+                    "subtitle": "AATP",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "3": {
+            "position": {
+              "x": 11,
+              "y": 0,
+              "colSpan": 3,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/aip.png \"Open Portal\")](https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/migrationActivationBlade \"Open Portal\")",
+                    "title": "Azure information Protection",
+                    "subtitle": "AIP",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "4": {
+            "position": {
+              "x": 4,
+              "y": 2,
+              "colSpan": 5,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/mdatp.png \"Open Portal\")](https://securitycenter.windows.com/ \"Open Portal\")",
+                    "title": "Microsoft Defender Advanced Threat Protection",
+                    "subtitle": "MDATP",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "5": {
+            "position": {
+              "x": 9,
+              "y": 2,
+              "colSpan": 5,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://raw.githubusercontent.com/swiftsolves-msft/dashboards/master/images/mcas.png \"Open Portal\")](https://portal.cloudappsecurity.com/ \"Open Portal\")",
+                    "title": "Microsoft Cloud App Security",
+                    "subtitle": "MCAS",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "6": {
+            "position": {
+              "x": 0,
+              "y": 4,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/aadip.PNG \"Open Portal\")](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/SecurityMenuBlade \"Open Portal\")",
+                    "title": "Azure Active Directory Identity Protection",
+                    "subtitle": "AADIP",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "7": {
+            "position": {
+              "x": 0,
+              "y": 6,
+              "colSpan": 4,
+              "rowSpan": 3
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/o365atp.PNG \"Open Portal\")](https://protection.office.com/ \"Open Portal\")",
+                    "title": "Office 365 Advanced Threat protection",
+                    "subtitle": "O365 ATP",
+                    "markdownSource": 1
+                  }
+                }
+              }
+            }
+          },
+          "8": {
+            "position": {
+              "x": 4,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 3
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_Azure_Security/PartType/SecurityMetricGalleryTileViewModel"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "Microsoft Security Navigation",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Microsoft Security Navigation"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
