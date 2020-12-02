@@ -246,9 +246,9 @@
         }
       }
     },
-    "name": "Microsoft Security Navigation",
+    "name": "MicrosoftSecurityNavigation",
     "type": "Microsoft.Portal/dashboards",
-    "location": "INSERT LOCATION",
+    "location": "eastus",
     "tags": {
       "hidden-title": "Microsoft Security Navigation"
     },
