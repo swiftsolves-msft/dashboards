@@ -17,10 +17,11 @@
               "settings": {
                 "content": {
                   "settings": {
-                    "content": "<a href='https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/SecurityMenuBlade' target='_blank'>__Azure Active Directory Identity Protection__</a>\n\n<a href='https://portal.atp.azure.com/' target='_blank'>__Azure Advanced Threat Protection__</a>\n\n<a href='https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/migrationActivationBlade' target='_blank'>__Azure Information Protection__</a>\n\n<a href='https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0' target='_blank'>__Azure Security Center__</a>\n\n<a href='https://portal.cloudappsecurity.com/' target='_blank'>__Microsoft Cloud App Security__</a>\n\n<a href='https://securitycenter.windows.com/' target='_blank'>__Microsoft Defender Advanced Threat Protection__</a>\n\n<a href='https://protection.office.com/' target='_blank'>__Office 365 Advanced Threat Protection__</a>",
+                    "content": "<a href='https://security.microsoft.com' target='_blank'>__Microsoft 365 Security Center__</a>\n\n<a href='https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/SecurityMenuBlade' target='_blank'>__Azure Active Directory Identity Protection__</a>\n\n<a href='https://portal.atp.azure.com/' target='_blank'>__Microsoft Defender for Identity__</a>\n\n<a href='https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/migrationActivationBlade' target='_blank'>__Azure Information Protection__</a>\n\n<a href='https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0' target='_blank'>__Azure Security Center__</a>\n\n<a href='https://portal.cloudappsecurity.com/' target='_blank'>__Microsoft Cloud App Security__</a>\n\n<a href='https://securitycenter.windows.com/' target='_blank'>__Microsoft Defender Security Center__</a>\n\n<a href='https://protection.office.com/' target='_blank'>__Microsoft Defender for Office 365__</a>",
                     "title": "Microsoft Security Portal Navigation",
                     "subtitle": "Direct Portal Links",
-                    "markdownSource": 1
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
@@ -42,7 +43,8 @@
                     "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/asc.png \"Open Portal\")](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0 \"Open Portal\")",
                     "title": "Azure Security Center",
                     "subtitle": "ASC",
-                    "markdownSource": 1
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
@@ -62,9 +64,10 @@
                 "content": {
                   "settings": {
                     "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/aatp.png \"Open Portal\")](https://portal.atp.azure.com/ \"Open Portal\")",
-                    "title": "Azure Advanced Threat Protection",
-                    "subtitle": "AATP",
-                    "markdownSource": 1
+                    "title": "Microsoft Defender for Identity",
+                    "subtitle": "formerly AATP",
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
@@ -84,15 +87,39 @@
                 "content": {
                   "settings": {
                     "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/aip.png \"Open Portal\")](https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/migrationActivationBlade \"Open Portal\")",
-                    "title": "Azure information Protection",
+                    "title": "Azure Information Protection",
                     "subtitle": "AIP",
-                    "markdownSource": 1
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
             }
           },
           "4": {
+            "position": {
+              "x": 14,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 3
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "content": "[![Open Portal](https://raw.githubusercontent.com/swiftsolves-msft/dashboards/master/images/m365sc.png \"Open Portal\")](https://security.microsoft.com/ \"Open Portal\")",
+                    "title": "Microsoft 365 Security Center",
+                    "subtitle": "",
+                    "markdownSource": 1,
+                    "markdownUri": null
+                  }
+                }
+              }
+            }
+          },
+          "5": {
             "position": {
               "x": 4,
               "y": 2,
@@ -106,15 +133,16 @@
                 "content": {
                   "settings": {
                     "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/mdatp.png \"Open Portal\")](https://securitycenter.windows.com/ \"Open Portal\")",
-                    "title": "Microsoft Defender Advanced Threat Protection",
-                    "subtitle": "MDATP",
-                    "markdownSource": 1
+                    "title": "Microsoft Defender for Endpoints",
+                    "subtitle": "formerly MDATP",
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
             }
           },
-          "5": {
+          "6": {
             "position": {
               "x": 9,
               "y": 2,
@@ -130,13 +158,14 @@
                     "content": "[![Open Portal](https://raw.githubusercontent.com/swiftsolves-msft/dashboards/master/images/mcas.png \"Open Portal\")](https://portal.cloudappsecurity.com/ \"Open Portal\")",
                     "title": "Microsoft Cloud App Security",
                     "subtitle": "MCAS",
-                    "markdownSource": 1
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
             }
           },
-          "6": {
+          "7": {
             "position": {
               "x": 0,
               "y": 4,
@@ -152,13 +181,14 @@
                     "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/aadip.PNG \"Open Portal\")](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/SecurityMenuBlade \"Open Portal\")",
                     "title": "Azure Active Directory Identity Protection",
                     "subtitle": "AADIP",
-                    "markdownSource": 1
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
             }
           },
-          "7": {
+          "8": {
             "position": {
               "x": 0,
               "y": 6,
@@ -172,15 +202,16 @@
                 "content": {
                   "settings": {
                     "content": "[![Open Portal](https://github.com/swiftsolves-msft/dashboards/raw/master/images/o365atp.PNG \"Open Portal\")](https://protection.office.com/ \"Open Portal\")",
-                    "title": "Office 365 Advanced Threat protection",
-                    "subtitle": "O365 ATP",
-                    "markdownSource": 1
+                    "title": "Microsoft Defender for Office 365",
+                    "subtitle": "formerly O365 ATP",
+                    "markdownSource": 1,
+                    "markdownUri": null
                   }
                 }
               }
             }
           },
-          "8": {
+          "9": {
             "position": {
               "x": 4,
               "y": 6,
